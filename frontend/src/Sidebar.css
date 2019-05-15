@@ -1,0 +1,50 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f1f1d;
+  color: #cccccc;
+  z-index: 2;
+  height: 100%;
+  font-size: 1.2em;
+  width: 100%;
+}
+.sidebar-list{
+  width: 100%;
+}
+.sidebar-icons{
+  background-color:#282823;
+  width: 3vw;
+  z-index: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-icons i {
+  margin: 2vh 0 ;
+}
+.sidebar-icons i:hover {
+  color: white;
+}
+.list-dropdown{
+  background-color: rgb(49,49,50);
+  width: 100%;
+  color: #cccccc;
+  border: none;
+  text-align: start; 
+  font-weight: 800;
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.75);
+}
+.list-dropdown p {
+  margin: 0;
+}
+.fa-caret-right{
+  padding: 4px;
+}
+.fa-caret-toggled{
+  transform: rotate(45deg);
+}
+.sidebar-header {
+  margin: 0;
+  font-size: 0.6em;
+  padding: 1vh 0 0 1vh;
+}

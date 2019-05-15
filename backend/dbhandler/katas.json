@@ -1,0 +1,148 @@
+{
+  "katas": [
+    {
+      "id": 1,
+      "export": "module.exports.primeFactors = primeFactors;",
+      "name": "Prime factors",
+      "description": "Find which prime numbers multiply together to make the original number",
+      "ReadMe": "https://github.com/saltsthlm/salt-winter19-kata-primeFactors/blob/master/README.md",
+      "code_boilerplate": "function primeFactors(number) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 200,
+      "tests": "./sandbox/tests/1_prime_factors/index.test.js",
+      "jsName": "primeFactors"
+    },
+    {
+      "id": 2,
+      "export": "module.exports.fizzBuzz = fizzBuzz;",
+      "name": "Fizz buzz",
+      "description": "Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more “fun” by introducing a “game”. He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The “fun” part is that if the number is divisible by three, you instead say “Fizz” and if it is divisible by five you say “Buzz”. So now your maths teacher is pointing at all of your classmates in turn, and they happily shout “one!”, “two!”, “Fizz!”, “four!”, “Buzz!”… until he very deliberately points at you, fixing you with a steely gaze… time stands still, your mouth dries up, your palms become sweatier and sweatier until you finally manage to croak “Fizz!”. Doom is avoided, and the pointing finger moves on.",
+      "ReadMe": "https://github.com/saltsthlm/salt-winter19-kata-fizzbuzz/blob/kata-fizzbuzz-MOB1/README.md",
+      "code_boilerplate": "function fizzBuzz(number) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 100,
+      "tests": "./sandbox/tests/2_fizzbuzz/index.test.js",
+      "jsName": "fizzBuzz"
+    },
+    {
+      "id": 3,
+      "export": "module.exports.numbersInWords = numbersInWords;",
+      "name": "Numbers in words",
+      "description": "*ChangeMe*",
+      "ReadMe": "https://github.com/saltsthlm/salt-winter19-kata-numbersInWords/blob/master/readme.md",
+      "code_boilerplate": "function numbersInWords(number) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 200,
+      "tests": "./sandbox/tests/3_numbers_in_words/index.test.js",
+      "jsName": "numbersInWords"
+    },
+    {
+      "id": 4,
+      "export": "module.exports.romanNumerals = romanNumerals;",
+      "name": "Roman numerals",
+      "description": "Create a roman numeral convert that converts Arabic numbers to roman numerals. Also convert the other way",
+      "ReadMe": "https://github.com/saltsthlm/salt-winter19-kata-romanNumerals/blob/master/README.md",
+      "code_boilerplate": "function romanNumerals(arg) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 100,
+      "tests": "./sandbox/tests/4_roman_numerals/index.test.js",
+      "jsName": "romanNumerals"
+    },
+    {
+      "id": 5,
+      "export": "module.exports.modifyArray = modifyArray;",
+      "name": "Array modification",
+      "description": "Create a function that adds 1 to every element in an array with length shorter than 5 and adds 2 to every element if the length is longer than 5",
+      "ReadMe": "",
+      "code_boilerplate": "function modifyArray(arr) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 100,
+      "tests": "./sandbox/tests/5_array_modification/index.test.js",
+      "jsName": "arrayModification"
+    },
+    {
+      "id": 6,
+      "export": "module.exports.fetchData = fetchData;",
+      "name": "Promises",
+      "description": "",
+      "ReadMe": "",
+      "code_boilerplate": "function fetchData(bool) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/6_Promises/index.test.js",
+      "jsName": "promises"
+    },
+    {
+      "id": 7,
+      "export": "module.exports.isValid = isValid;",
+      "name": "ID validator (regex)",
+      "description": "",
+      "ReadMe": "",
+      "code_boilerplate": "function isValid(token) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/7_ID_validator/index.test.js",
+      "jsName": "idValidator"
+    },
+    {
+      "id": 8,
+      "export": "module.exports.filesNames = filesNames;",
+      "name": "Filter files",
+      "description": "Filter out file names from a list of file names. Present the result as a list of file names without their extensions. Filter out any path in the filename",
+      "ReadMe": "",
+      "code_boilerplate": "function filesNames(arr) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/8_file_filter/index.test.js",
+      "jsName": "filterFiles"
+    },
+    {
+      "id": 9,
+      "export": "module.exports.isCheck = isCheck;",
+      "name": "Check checker",
+      "description": "Write a regex that verifies the word check is valid in a sentence. The crux is that the validator should accept both american and british spellings. It should also accept the word anywhere in the sentence, exept from compund words. (E.g. the word blackbirds in All black birds are not blackbirds is a compund word",
+      "ReadMe": "",
+      "code_boilerplate": "function isCheck(matcher) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/9_check_checker/index.test.js",
+      "jsName": "checkChecker"
+    },
+    {
+      "id": 10,
+      "export": "module.exports.capFirstLetter = capFirstLetter;",
+      "name": "Capitalize words",
+      "description": "Using map, capitalize every first letter in each string",
+      "ReadMe": "",
+      "code_boilerplate": "function capFirstLetter(arr) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/10_array_capital/index.test.js",
+      "jsName": "capitalizeWords"
+    },
+    {
+      "id": 11,
+      "export": "module.exports.highestNum = highestNum;",
+      "name": "Map & sort",
+      "description": "Using map & sort, return the highest number in each nested array and sort the end result by highest numbers",
+      "ReadMe": "",
+      "code_boilerplate": "function highestNum(arr) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/11_map_sort/index.test.js",
+      "jsName": "mapAndSort"
+    },
+    {
+      "id": 12,
+      "export": "module.exports.reverseString = reverseString;",
+      "name": "Reverse array",
+      "description": "using map, reverse the given string in each elements",
+      "ReadMe": "",
+      "code_boilerplate": "function reverseString(arr) {\n\n}",
+      "difficulty": "ChangeMe",
+      "score": 50,
+      "tests": "./sandbox/tests/12_reverse_array/index.test.js",
+      "jsName": "reverseArray"
+    }
+  ]
+}

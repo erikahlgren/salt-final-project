@@ -1,0 +1,21 @@
+.kata-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+ 
+ }
+ .kata-container:hover {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  background-color: #41433a;
+  cursor: pointer;
+ }
+ .kata-container i{
+  margin: .5vw;
+  color: #F0DB4F;
+ 
+ }
+ .kata-container p{
+  margin: 0 1vh;
+ }
